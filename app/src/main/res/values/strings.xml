@@ -1,4 +1,22 @@
 <resources>
     <string name="app_name">MovieApp</string>
     <string name="action_settings">Settings</string>
+
+    <string-array name ="Items">
+        <item>accessibility</item>
+        <item>accessible</item>
+        <item>account_balance</item>
+        <item>account_box</item>
+        <item>account_circle</item>
+        <item>add_shopping</item>
+        <item>alarm_add</item>
+        <item>alarm</item>
+        <item>assignment</item>
+        <item>autorenew</item>
+        <item>backup</item>
+        <item>code</item>
+
+
+
+        </string-array>
 </resources>

@@ -9,9 +9,17 @@
     tools:context="movieapp.nohier.com.movieapp.MainActivityFragment"
     tools:showIn="@layout/activity_main">
 
-    <TextView
+    <GridView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:id="@+id/gridView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:numColumns="auto_fit"
+        android:horizontalSpacing="10dp"
+        android:verticalSpacing="10dp"
+        android:stretchMode="spacingWidth"
 
+        />
 </RelativeLayout>
